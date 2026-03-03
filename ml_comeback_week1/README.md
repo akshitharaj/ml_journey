@@ -51,3 +51,32 @@ This is a binary classification problem in a medical domain, where recall for ma
 - Compared linear vs tree-based models
 - Evaluated classification metrics properly
 
+# Day 2 Logistic Regression Optimization & Advanced Evaluation
+
+Logistic Regression Optimization & Advanced Evaluation
+
+### Preprocessing
+- Applied StandardScaler to normalize feature magnitudes.
+
+- Improved convergence and stability of Logistic Regression.
+
+### Hyperparameter Tuning
+- Used GridSearchCV with 5-fold cross-validation.
+- Tuned regularization parameter C.
+- Optimized for recall, prioritizing detection of malignant cases.
+
+### Advanced Evaluation
+- Plotted ROC Curve.
+- Computed AUC score on test data.
+- Achieved: AUC=0.99
+
+### Interpretation
+- The dataset shows strong class separability.
+- Logistic Regression generalized better than Random Forest.
+- High AUC indicates excellent ranking capability across thresholds.
+- Emphasized recall due to medical risk considerations.
+
+### Learning Outcome
+- Understood impact of regularization.
+- Learned threshold-independent evaluation using AUC.
+- Practiced structured model comparison and selection.
